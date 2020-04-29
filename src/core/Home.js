@@ -4,7 +4,7 @@ import Base from './Base';
 
 export default function Home() {
   return (
-    <Base title='Home Page'>
+    <Base title='Home Page' description='Welcome to the T-shirt store'>
       <div className='row'>
         <div className='col-4'>
           <button className='btn btn-success'>Test</button>
