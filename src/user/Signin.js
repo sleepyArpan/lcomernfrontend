@@ -5,8 +5,8 @@ import { signin, authenticate, isAuthenticated } from '../auth/helper';
 
 const Signin = () => {
   const [values, setValues] = useState({
-    email: '',
-    password: '',
+    email: 'a@arpan.com',
+    password: '12345',
     error: '',
     loading: false,
     didRedirect: false,
@@ -41,7 +41,7 @@ const Signin = () => {
 
   const performRedirect = () => {
     /**
-     * todo: Do a redirection here
+     * ! Do a redirection here
      */
 
     if (didRedirect) {
