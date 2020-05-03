@@ -1,4 +1,4 @@
-import API from '../../backend';
+import { API } from '../../backend';
 
 export const signup = async (user) => {
   try {
@@ -12,7 +12,7 @@ export const signup = async (user) => {
     });
     return response.json();
   } catch (err) {
-    console.log(error);
+    console.log(err);
   }
 };
 
@@ -28,7 +28,7 @@ export const signin = async (user) => {
     });
     return response.json();
   } catch (err) {
-    console.log(error);
+    console.log(err);
   }
 };
 
